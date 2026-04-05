@@ -139,6 +139,34 @@ header {
     transform: translateY(-5px);
 }
 
+.btn-red {
+    background-color: #e50914;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(229, 9, 20, 0.4);
+    border: 1px solid #e50914;
+}
+
+.btn-red:hover {
+    background-color: white;
+    color: #e50914;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+    transform: translateY(-5px);
+}
+
+.btn-blue {
+    background-color: #007bff;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.4);
+    border: 1px solid #007bff;
+}
+
+.btn-blue:hover {
+    background-color: white;
+    color: #007bff;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+    transform: translateY(-5px);
+}
+
 /* Services */
 .services-container {
     padding: 100px 10%;
