@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetMatrix | O Futuro dos Pets</title>
+    <meta name="description" content="Bem-vindo à PetMatrix. Onde a realidade animal encontra a perfeição digital. Grooming neural, treinamento binário e o despertar do seu melhor amigo.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix-canvas"></canvas>
+
+    <header>
+        <nav class="glass-nav">
+            <div class="logo">Pet<span>Matrix</span></div>
+            <ul>
+                <li><a href="#hero">Acesso</a></li>
+                <li><a href="#services">Protocolos</a></li>
+                <li><a href="#pets">Unidades</a></li>
+                <li><a href="#contact">Terminal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="O DESPERTAR ANIMAL">O DESPERTAR ANIMAL</h1>
+                <p class="fade-in">Você está pronto para ver quão profundo a toca do coelho (do pet) vai?</p>
+                <div class="hero-buttons">
+                    <a href="#pets" class="btn btn-primary">Pílula Vermelha: Entrar</a>
+                    <a href="#" class="btn btn-secondary">Pílula Azul: Sair</a>
+                </div>
+            </div>
+        </main>
+
+        <section id="services" class="services-container">
+            <h2 class="section-title">Protocolos de Cuidado</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">🧬</div>
+                    <h3>Grooming Neural</h3>
+                    <p>Limpeza profunda do código genético e pelagem holográfica. Deixe seu pet brilhar na rede.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">💾</div>
+                    <h3>Treinamento Binário</h3>
+                    <p>Upload de comandos diretamente no córtex. Senta, deita e hackeia em milissegundos.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🔋</div>
+                    <h3>Hospedagem Digital</h3>
+                    <p>Um servidor seguro para o descanso do seu companheiro enquanto você navega na Matrix.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pets" class="pets-section">
+            <h2 class="section-title">Unidades Disponíveis</h2>
+            <div class="pets-grid">
+                <article class="pet-card">
+                    <div class="pet-image">
+                        <img src="assets/cat.png" alt="Cyber Cat">
+                    </div>
+                    <div class="pet-info">
+                        <h3>Neon Felis-01</h3>
+                        <p>Especialista em infiltração e sono profundo.</p>
+                        <span class="status">ONLINE</span>
+                    </div>
+                </article>
+                <article class="pet-card">
+                    <div class="pet-image">
+                        <img src="assets/dog.png" alt="Cyber Dog">
+                    </div>
+                    <div class="pet-info">
+                        <h3>Dober-Grid 2.0</h3>
+                        <p>Protocolo de proteção e lealdade absoluta.</p>
+                        <span class="status">ONLINE</span>
+                    </div>
+                </article>
+                <article class="pet-card">
+                    <div class="pet-image">
+                        <img src="assets/hamster.png" alt="Hacker Hamster">
+                    </div>
+                    <div class="pet-info">
+                        <h3>Data Rat v4</h3>
+                        <p>Pequeno no tamanho, gigante no processamento.</p>
+                        <span class="status">BUSY</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="terminal-container">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="terminal-title">Matrix_Terminal_v1.0</span>
+                </div>
+                <div class="terminal-body">
+                    <p class="console-text">> Estabelecendo conexão...</p>
+                    <p class="console-text">> Localizando sistema de mensagens...</p>
+                    <form class="terminal-form">
+                        <div class="input-group">
+                            <label for="name">ID_USUARIO:</label>
+                            <input type="text" id="name" placeholder="Digite seu nome">
+                        </div>
+                        <div class="input-group">
+                            <label for="message">COMANDO:</label>
+                            <textarea id="message" placeholder="Sua mensagem para o Oráculo..."></textarea>
+                        </div>
+                        <button type="submit" class="terminal-btn">EXECUTAR</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PetMatrix. Fim da Transmissão. Siga o Coelho Branco.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
